@@ -11,4 +11,5 @@ def get_products_by_type(type: str):
     for product in products:
         if product ["type"] == type:
             filtered_products.append(product)
-    return filtered_products        
+            print('alo')
+    return filtered_products    
